@@ -1,7 +1,0 @@
-chage -l kali
-sudo useradd name
-whoami
-sudo passwd name
-sudo chage -d 0 name
-su name
-sudo chage -l name
