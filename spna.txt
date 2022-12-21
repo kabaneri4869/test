@@ -1,0 +1,76 @@
+Implementing security using commands.
+Step 1: Windows+R->secpol.msc->OK->local security policy.inf
+Step 2: In Security Setting->Right Click->Then click on Export policy
+              Step 3: Save the file with security_policy.inf
+
+
+
+Monitoring security using commands(cmd prompt)
+1)ipconfig/all
+2)netstat
+3)netstat -an
+4)sfc/scannow
+5)netsh wlan show profile
+6)netaccounts
+7)cmdkey/list
+8)net users
+
+
+
+
+Shcheck – Tool to Check Security Headers in Kali Linux
+Pip3 install shcheck
+Root
+1)apt install python3python3-pip
+2)pip install shcheck
+3)shcheck.py -h
+4)shcheck.py https://www.facebook.com
+
+
+
+
+Using Aging Policy
+To add diff user
+useradd username
+passwd  username
+sudo cat /etc/passwd  to check user that is created
+su  username
+whoamigive the username that is added
+
+Root
+chage -l kali
+chage -h
+
+
+
+Disable booting from external device 
+Generate SSH Key Pair
+1)ssh-keygen
+2)ls
+3)cat word
+
+
+
+Password Attack
+Locate wordlist in kali.
+1)cd/usr/share
+2)ls
+3)cd wordlists
+4)cat john.lst
+5)gzip -df rockyou.txt.gz
+6)cat rockyou.txt
+
+
+
+Create wordlist using crunch. 
+1)apt install crunch
+2)crunch 2 3 012345678sa
+3)crunch 4 8 0123578902 -o /home/kali/Desktop/pass.txt
+
+
+
+Create wordlist for brute force attack using cupp.( https://github.com/Mebus/cupp)
+1)cd Downloads
+2)cd cupp-master
+3)sudo ./cupp.py
+4)sudo ./cupp.py -i
