@@ -1,3 +1,0 @@
-ssh-keygen
-ls
-cat word
