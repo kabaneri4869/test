@@ -1,0 +1,4 @@
+//devices-mount pendrive
+chmod 000 /media
+//show pendrive
+chmod 777 /media

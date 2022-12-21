@@ -1,0 +1,13 @@
+apt install gpg
+gpg --full-generate-key
+gpg --list-key
+nano msc.txt
+gpg -r email -e msc.txt
+cat msc.txt
+cat msc.txt.gpg
+
+//image
+sudo gpg --output myid.jpeg.gpg -r email -e image.jpeg
+sudo gpg -a -o myid.jpeg.gpg --export email
+sudo gpg --keyserver keys.gnupg.net --search-keys email
+

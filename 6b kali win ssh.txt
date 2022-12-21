@@ -1,0 +1,18 @@
+ifconfig
+//bridged adapter setting
+disconnect-connect
+ifconfig
+service ssh start
+--      --  status
+mkdir folder
+cd folder
+touch f1 f2
+ls
+cat> file.txt  //FIS practical
+
+//in win
+putty
+ls
+cd folder
+ls
+cat folder.txt

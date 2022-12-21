@@ -1,0 +1,4 @@
+cd /usr/share/wordlists
+gzip -df rockyou.txt.gz
+cat rockyou.txt
+

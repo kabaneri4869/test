@@ -1,0 +1,17 @@
+sudo nano bufferover2.cpp
+
+#include<stdio.h>
+#include<cstring>
+int main(int argc,char**argv)
+{
+char buffer[100];
+strncpy(buffer,argv[1],100);
+printf(buffer);
+return 0 ;
+}
+
+g++ bufferover2.cpp -o temp.out
+./temp.out name
+./temp.out "%p %p %p %p"
+./temp.out "AAA%p %p %p %p"
+

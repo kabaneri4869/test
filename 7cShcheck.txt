@@ -1,0 +1,4 @@
+sudo pip install shcheck
+shcheck.py -h
+shcheck.py https://www.facebook.com
+

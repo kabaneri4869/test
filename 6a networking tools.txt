@@ -1,0 +1,25 @@
+ping www.facebook.com
+
+curl https://google.com
+
+whois facebook.com
+
+net stat-r
+
+ifconfig
+
+service ssh status
+
+ss-ta
+
+nmap google.com
+
+dig google.com
+
+host facebook.com
+
+nslookup google.com
+
+sudo traceroute facebook.com
+
+ip a

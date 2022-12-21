@@ -1,0 +1,5 @@
+//win+r
+secpol.msc
+//Security setting>> export policy
+//edit passlenght and new adminname
+//import and reboot

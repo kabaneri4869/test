@@ -1,0 +1,7 @@
+ipconfig/all
+netstat -an
+sfc /scannow
+netsh wlan show profile
+net accounts
+cmdkey /list
+net users

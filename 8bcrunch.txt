@@ -1,0 +1,5 @@
+sudo apt install crunch
+crunch 2 3 235364kfa
+crunch 2 3 23352 -o /home/kali/Desktop/pass.txt
+crunch 4 4 @@34 -o /home/kali/Desktop/pass2xt
+
